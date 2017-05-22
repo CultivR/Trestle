@@ -1,0 +1,10 @@
+framework module Tangram {
+  umbrella header "Tangram.h"
+
+  export *
+  module * { export * }
+}
+
+module Tangram.Swift {
+    header "Tangram-Swift.h"
+}

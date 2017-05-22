@@ -1,0 +1,10 @@
+framework module Mensa {
+  umbrella header "Mensa.h"
+
+  export *
+  module * { export * }
+}
+
+module Mensa.Swift {
+    header "Mensa-Swift.h"
+}
