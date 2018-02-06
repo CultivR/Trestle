@@ -3,10 +3,8 @@
 //  Trestle
 //
 //  Created by Jordan Kay on 8/11/17.
-//  Copyright © 2017 Squareknot. All rights reserved.
+//  Copyright © 2017 Cultivr. All rights reserved.
 //
-
-import Province
 
 final class ButtonState: StateHolder {
     weak var delegate: ButtonStateDelegate!
@@ -19,11 +17,13 @@ final class ButtonState: StateHolder {
             delegate.state(self, didToggle: toggledState)
         }
     }
-    
+
     init(delegate: ButtonStateDelegate) {
         self.delegate = delegate
     }
-    
+}
+
+extension ButtonState {
     func toggle() {
         try! toggledState.transition(with: .toggle) {
             toggledState = $0

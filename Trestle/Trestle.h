@@ -3,7 +3,7 @@
 //  Trestle
 //
 //  Created by Jordan Kay on 5/22/17.
-//  Copyright © 2017 Squareknot. All rights reserved.
+//  Copyright © 2017 Cultivr. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

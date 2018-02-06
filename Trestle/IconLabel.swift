@@ -3,12 +3,10 @@
 //  Trestle
 //
 //  Created by Jordan Kay on 10/30/17.
-//  Copyright © 2017 Squareknot. All rights reserved.
+//  Copyright © 2017 Cultivr. All rights reserved.
 //
 
-import Cipher
-
-@IBDesignable public final class IconLabel: UILabel {
+public final class IconLabel: UILabel {
     @IBInspectable private var icon: UIImage!
     @IBInspectable private var iconVerticalOffset: CGFloat = 0.0
     
@@ -17,37 +15,41 @@ import Cipher
         super.init(frame: frame)
     }
     
-    public override var intrinsicContentSize: CGSize {
+    // MARK: NSCoding
+    required public init?(coder: NSCoder) {
+        super.init(coder: coder)
+        decodeProperties(from: coder)
+    }
+}
+
+public extension IconLabel {
+    // MARK: UIView
+    override var intrinsicContentSize: CGSize {
         var size = super.intrinsicContentSize
         size.width += .padding
         return size
     }
     
-    public override func didMoveToWindow() {
+    override func didMoveToWindow() {
         super.didMoveToWindow()
         updateAttributedText()
     }
     
     // MARK: UILabel
-    public override var text: String? {
+    override var text: String? {
         didSet {
             updateAttributedText()
         }
     }
     
-    public override func drawText(in rect: CGRect) {
+    override func drawText(in rect: CGRect) {
         var rect = rect
         rect.origin.x += .padding
         super.drawText(in: rect)
     }
     
     // MARK: NSCoding
-    required public init?(coder: NSCoder) {
-        super.init(coder: coder)
-        decodeProperties(from: coder)
-    }
-    
-    override public func encode(with coder: NSCoder) {
+    override func encode(with coder: NSCoder) {
         super.encode(with: coder)
         encodeProperties(with: coder)
     }

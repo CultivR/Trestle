@@ -23,6 +23,10 @@
 		1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; };
 		1770A0951FA83E3B00FCC1DE /* IconLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		1797E0061EF9DEC700B53FA0 /* Tangram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17885C1A1EDE19C100FBD69E /* Tangram.framework */; };
+		179A298D20A36A460047513F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298C20A36A460047513F /* Font.swift */; };
+		179A298F20A36B120047513F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298E20A36B120047513F /* TextView.swift */; };
+		17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD80E9209A7CF400B81D12 /* Dependencies.swift */; };
+		17AD80EC209A7F5800B81D12 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD80EB209A7F5800B81D12 /* Style.swift */; };
 		17BD88871FBD1B0F00D90DC4 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */; };
 		17BD88881FBD1FC500D90DC4 /* NavigationBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C084091ED333AE0069A633 /* Trestle.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C084071ED333AE0069A633 /* Trestle.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,6 +46,10 @@
 		1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTargetModifying.swift; sourceTree = "<group>"; };
 		1797E0021EF9DCC200B53FA0 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1797E0041EF9DE2D00B53FA0 /* ButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContent.swift; sourceTree = "<group>"; };
+		179A298C20A36A460047513F /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		179A298E20A36B120047513F /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		17AD80E9209A7CF400B81D12 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
+		17AD80EB209A7F5800B81D12 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		17C084041ED333AE0069A633 /* Trestle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trestle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C084071ED333AE0069A633 /* Trestle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trestle.h; sourceTree = "<group>"; };
@@ -96,12 +104,16 @@
 				1797E0041EF9DE2D00B53FA0 /* ButtonContent.swift */,
 				173A95011F3E1780009A7BF3 /* ButtonState.swift */,
 				1757E5D21F3B99CB00966862 /* Delay.swift */,
+				17AD80E9209A7CF400B81D12 /* Dependencies.swift */,
+				179A298C20A36A460047513F /* Font.swift */,
 				17673D2F1F292B2700AC55D9 /* Label.swift */,
 				1770A0931FA83D0500FCC1DE /* IconLabel.swift */,
 				17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */,
 				171702D41FD1EE89003DE9E7 /* NavigationItem.swift */,
 				1721DA0220291E7100287DE4 /* PageControl.swift */,
+				17AD80EB209A7F5800B81D12 /* Style.swift */,
 				175D28631FA17D5300187DD0 /* TabBar.swift */,
+				179A298E20A36B120047513F /* TextView.swift */,
 				1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */,
 				17C084081ED333AE0069A633 /* Info.plist */,
 			);
@@ -154,7 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Squareknot;
 				TargetAttributes = {
 					17C084031ED333AE0069A633 = {
@@ -198,12 +210,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */,
 				1760876E1F1D871400688CDC /* ButtonContent.swift in Sources */,
+				179A298D20A36A460047513F /* Font.swift in Sources */,
 				173A95021F3E1780009A7BF3 /* ButtonState.swift in Sources */,
 				1760876C1F1D86F200688CDC /* TouchTargetModifying.swift in Sources */,
 				1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */,
+				17AD80EC209A7F5800B81D12 /* Style.swift in Sources */,
 				1757E5D31F3B99CB00966862 /* Delay.swift in Sources */,
 				17BD88871FBD1B0F00D90DC4 /* NavigationBar.swift in Sources */,
+				179A298F20A36B120047513F /* TextView.swift in Sources */,
 				171702D51FD1EE89003DE9E7 /* NavigationItem.swift in Sources */,
 				17673D301F292B2700AC55D9 /* Label.swift in Sources */,
 				1721DA0320291E7100287DE4 /* PageControl.swift in Sources */,
@@ -229,6 +245,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -236,6 +253,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -263,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +307,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -296,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -317,7 +337,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -344,7 +364,7 @@
 				);
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -371,7 +391,7 @@
 				);
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";

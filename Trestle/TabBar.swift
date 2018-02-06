@@ -6,8 +6,6 @@
 //  Copyright © 2017 Cultivr. All rights reserved.
 //
 
-import UIKit
-
 public final class TabBar: UITabBar {
     @IBOutlet public private(set) var centerView: UIView?
     
@@ -21,6 +19,15 @@ public final class TabBar: UITabBar {
         super.init(frame: frame)
     }
     
+    // MARK: NSCoding
+    public required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        decodeProperties(from: coder)
+    }
+}
+
+extension TabBar {
+    // MARK: UIView
     public override func didMoveToWindow() {
         super.didMoveToWindow()
         setupCenterView()
@@ -33,11 +40,6 @@ public final class TabBar: UITabBar {
     }
     
     // MARK: NSCoding
-    public required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        decodeProperties(from: coder)
-    }
-    
     public override func encode(with coder: NSCoder) {
         super.encode(with: coder)
         encodeProperties(with: coder)
@@ -60,7 +62,10 @@ private extension TabBar {
     }
     
     func layoutCenterButton() {
-        centerView?.center = superview!.convert(center, to: self)
+        centerView.do {
+            $0.center = superview!.convert(center, to: self)
+            $0.frame = $0.frame.integral
+        }
     }
     
     func layoutSurroundingButtons() {
