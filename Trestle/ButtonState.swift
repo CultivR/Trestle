@@ -6,7 +6,7 @@
 //  Copyright © 2017 Cultivr. All rights reserved.
 //
 
-final class ButtonState: StateHolder {
+final class ButtonState: StateHolderTODO {
     weak var delegate: ButtonStateDelegate!
     
     private(set) var highlightedState = false
