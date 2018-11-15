@@ -6,9 +6,7 @@
 //  Copyright © 2017 Cultivr. All rights reserved.
 //
 
-final class ButtonState: StateHolderTODO {
-    weak var delegate: ButtonStateDelegate!
-    
+final class ButtonState {
     private(set) var highlightedState = false
     private(set) var loadingState = false
     
@@ -17,8 +15,10 @@ final class ButtonState: StateHolderTODO {
             delegate.state(self, didToggle: toggledState)
         }
     }
+    
+    private weak var delegate: ButtonStateDelegate!
 
-    init(delegate: ButtonStateDelegate) {
+    init(source: Void, delegate: ButtonStateDelegate) {
         self.delegate = delegate
     }
 }
@@ -46,6 +46,12 @@ extension ButtonState {
         try! loadingState.transition(with: .toggle) {
             loadingState = $0
         }
+    }
+}
+
+extension ButtonState: StateHolder {
+    func reset() {
+        return
     }
 }
 
