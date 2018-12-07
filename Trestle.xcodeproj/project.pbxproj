@@ -22,7 +22,6 @@
 		17673D301F292B2700AC55D9 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17673D2F1F292B2700AC55D9 /* Label.swift */; };
 		1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; };
 		1770A0951FA83E3B00FCC1DE /* IconLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		1797E0061EF9DEC700B53FA0 /* Tangram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17885C1A1EDE19C100FBD69E /* Tangram.framework */; };
 		179A298D20A36A460047513F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298C20A36A460047513F /* Font.swift */; };
 		179A298F20A36B120047513F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298E20A36B120047513F /* TextView.swift */; };
 		17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD80E9209A7CF400B81D12 /* Dependencies.swift */; };
@@ -31,7 +30,7 @@
 		17BD88881FBD1FC500D90DC4 /* NavigationBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C084091ED333AE0069A633 /* Trestle.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C084071ED333AE0069A633 /* Trestle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C6B7751F23F9D900D47734 /* Button.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1797E0021EF9DCC200B53FA0 /* Button.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		17DA504E1F43B7FD008427B5 /* Province.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA504D1F43B7FD008427B5 /* Province.framework */; };
+		55AA43CA21B6F83800850346 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA43C921B6F83800850346 /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +41,6 @@
 		175D28631FA17D5300187DD0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		17673D2F1F292B2700AC55D9 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		1770A0931FA83D0500FCC1DE /* IconLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
-		17885C1A1EDE19C100FBD69E /* Tangram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tangram.framework; path = Carthage/Build/iOS/Tangram.framework; sourceTree = "<group>"; };
 		1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTargetModifying.swift; sourceTree = "<group>"; };
 		1797E0021EF9DCC200B53FA0 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1797E0041EF9DE2D00B53FA0 /* ButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContent.swift; sourceTree = "<group>"; };
@@ -54,7 +52,7 @@
 		17C084041ED333AE0069A633 /* Trestle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trestle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C084071ED333AE0069A633 /* Trestle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trestle.h; sourceTree = "<group>"; };
 		17C084081ED333AE0069A633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17DA504D1F43B7FD008427B5 /* Province.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Province.framework; path = Carthage/Build/iOS/Province.framework; sourceTree = "<group>"; };
+		55AA43C921B6F83800850346 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,28 +60,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17DA504E1F43B7FD008427B5 /* Province.framework in Frameworks */,
-				1797E0061EF9DEC700B53FA0 /* Tangram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17885C1E1EDE19C400FBD69E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				17DA504D1F43B7FD008427B5 /* Province.framework */,
-				17885C1A1EDE19C100FBD69E /* Tangram.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		17C083FA1ED333AE0069A633 = {
 			isa = PBXGroup;
 			children = (
 				17C084061ED333AE0069A633 /* Trestle */,
-				17885C1E1EDE19C400FBD69E /* Frameworks */,
 				17C084051ED333AE0069A633 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +99,7 @@
 				1721DA0220291E7100287DE4 /* PageControl.swift */,
 				17AD80EB209A7F5800B81D12 /* Style.swift */,
 				175D28631FA17D5300187DD0 /* TabBar.swift */,
+				55AA43C921B6F83800850346 /* TextField.swift */,
 				179A298E20A36B120047513F /* TextView.swift */,
 				1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */,
 				17C084081ED333AE0069A633 /* Info.plist */,
@@ -171,7 +158,6 @@
 				TargetAttributes = {
 					17C084031ED333AE0069A633 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5BJ5JFAS37;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -213,6 +199,7 @@
 				17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */,
 				1760876E1F1D871400688CDC /* ButtonContent.swift in Sources */,
 				179A298D20A36A460047513F /* Font.swift in Sources */,
+				55AA43CA21B6F83800850346 /* TextField.swift in Sources */,
 				173A95021F3E1780009A7BF3 /* ButtonState.swift in Sources */,
 				1760876C1F1D86F200688CDC /* TouchTargetModifying.swift in Sources */,
 				1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */,
@@ -353,8 +340,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5BJ5JFAS37;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -365,9 +354,10 @@
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.cultivr.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -380,8 +370,10 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 5BJ5JFAS37;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -392,9 +384,10 @@
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.cultivr.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
