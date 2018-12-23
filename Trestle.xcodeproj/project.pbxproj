@@ -136,6 +136,7 @@
 				17C084001ED333AE0069A633 /* Frameworks */,
 				17C084011ED333AE0069A633 /* Headers */,
 				17C084021ED333AE0069A633 /* Resources */,
+				179CB13421D00D4500CB6FD2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -153,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Squareknot;
 				TargetAttributes = {
 					17C084031ED333AE0069A633 = {
@@ -190,6 +191,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179CB13421D00D4500CB6FD2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Lilt.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Province.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Tangram.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftTask.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Tarmac.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		17C083FF1ED333AE0069A633 /* Sources */ = {

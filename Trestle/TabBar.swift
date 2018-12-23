@@ -48,7 +48,7 @@ extension TabBar {
 
 private extension TabBar {
     var buttons: [UIControl] {
-        return subviews.flatMap { $0 as? UIControl }.sorted { $0.frame.minX < $1.frame.minX }
+        return subviews.compactMap { $0 as? UIControl }.sorted { $0.frame.minX < $1.frame.minX }
     }
     
     var surroundingButtons: [UIControl]? {
