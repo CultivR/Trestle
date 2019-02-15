@@ -112,7 +112,7 @@ extension Button {
     }
     
     open override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        let touchTarget = UIEdgeInsetsInsetRect(bounds, touchInsets)
+        let touchTarget = bounds.inset(by: touchInsets)
         if touchTarget.contains(point) {
             if !delaysTouchDown && !isHighlighted {
                 // Use initial point-inside calculation for non-delayed touch down

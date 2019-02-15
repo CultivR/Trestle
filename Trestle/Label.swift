@@ -105,14 +105,14 @@ private extension Label {
     }
     
     var underlineStyle: Int {
-        return isUnderlined ? NSUnderlineStyle.styleSingle.rawValue : 0
+        return isUnderlined ? NSUnderlineStyle.single.rawValue : 0
     }
     
     var strikethroughStyle: Int {
-        return hasStrikethrough ? NSUnderlineStyle.styleSingle.rawValue : 0
+        return hasStrikethrough ? NSUnderlineStyle.single.rawValue : 0
     }
     
-    var attributes: [NSAttributedStringKey: Any] {
+    var attributes: [NSAttributedString.Key: Any] {
         return [
             .paragraphStyle: paragraphStyle,
             .underlineStyle: underlineStyle,
