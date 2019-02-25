@@ -10,4 +10,5 @@
 @_exported import Lilt
 @_exported import Province
 @_exported import Tangram
+@_exported import Tarmac
 @_exported import UIKit
