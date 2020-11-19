@@ -11,18 +11,6 @@
 		171702D51FD1EE89003DE9E7 /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171702D41FD1EE89003DE9E7 /* NavigationItem.swift */; };
 		1721DA0320291E7100287DE4 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721DA0220291E7100287DE4 /* PageControl.swift */; };
 		1721DA0420291ED000287DE4 /* PageControl.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1721DA0220291E7100287DE4 /* PageControl.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		1722576F21D4944A00A7C84B /* SwiftTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576921D4944A00A7C84B /* SwiftTask.framework */; };
-		1722577021D4944B00A7C84B /* Tangram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576A21D4944A00A7C84B /* Tangram.framework */; };
-		1722577121D4944B00A7C84B /* Tarmac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576B21D4944A00A7C84B /* Tarmac.framework */; };
-		1722577221D4944B00A7C84B /* Lilt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576C21D4944A00A7C84B /* Lilt.framework */; };
-		1722577321D4944B00A7C84B /* Province.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576D21D4944A00A7C84B /* Province.framework */; };
-		1722577421D4944B00A7C84B /* Cipher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1722576E21D4944A00A7C84B /* Cipher.framework */; };
-		1722577521D4945200A7C84B /* Cipher.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576E21D4944A00A7C84B /* Cipher.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1722577621D4945200A7C84B /* Lilt.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576C21D4944A00A7C84B /* Lilt.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1722577721D4945200A7C84B /* Province.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576D21D4944A00A7C84B /* Province.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1722577821D4945200A7C84B /* SwiftTask.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576921D4944A00A7C84B /* SwiftTask.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1722577921D4945200A7C84B /* Tangram.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576A21D4944A00A7C84B /* Tangram.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		1722577A21D4945200A7C84B /* Tarmac.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1722576B21D4944A00A7C84B /* Tarmac.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		173A95021F3E1780009A7BF3 /* ButtonState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 173A95011F3E1780009A7BF3 /* ButtonState.swift */; };
 		1757E5D31F3B99CB00966862 /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757E5D21F3B99CB00966862 /* Delay.swift */; };
 		175D28641FA17D5300187DD0 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175D28631FA17D5300187DD0 /* TabBar.swift */; };
@@ -34,6 +22,7 @@
 		17673D301F292B2700AC55D9 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17673D2F1F292B2700AC55D9 /* Label.swift */; };
 		1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; };
 		1770A0951FA83E3B00FCC1DE /* IconLabel.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1770A0931FA83D0500FCC1DE /* IconLabel.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		1797E0061EF9DEC700B53FA0 /* Tangram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17885C1A1EDE19C100FBD69E /* Tangram.framework */; };
 		179A298D20A36A460047513F /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298C20A36A460047513F /* Font.swift */; };
 		179A298F20A36B120047513F /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179A298E20A36B120047513F /* TextView.swift */; };
 		17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AD80E9209A7CF400B81D12 /* Dependencies.swift */; };
@@ -42,41 +31,18 @@
 		17BD88881FBD1FC500D90DC4 /* NavigationBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = 17BD88861FBD1B0F00D90DC4 /* NavigationBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C084091ED333AE0069A633 /* Trestle.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C084071ED333AE0069A633 /* Trestle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		17C6B7751F23F9D900D47734 /* Button.swift in Headers */ = {isa = PBXBuildFile; fileRef = 1797E0021EF9DCC200B53FA0 /* Button.swift */; settings = {ATTRIBUTES = (Public, ); }; };
-		55AA43CA21B6F83800850346 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA43C921B6F83800850346 /* TextField.swift */; };
+		17DA504E1F43B7FD008427B5 /* Province.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DA504D1F43B7FD008427B5 /* Province.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		1722575B21D4941000A7C84B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				1722577521D4945200A7C84B /* Cipher.framework in CopyFiles */,
-				1722577621D4945200A7C84B /* Lilt.framework in CopyFiles */,
-				1722577721D4945200A7C84B /* Province.framework in CopyFiles */,
-				1722577821D4945200A7C84B /* SwiftTask.framework in CopyFiles */,
-				1722577921D4945200A7C84B /* Tangram.framework in CopyFiles */,
-				1722577A21D4945200A7C84B /* Tarmac.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		171702D41FD1EE89003DE9E7 /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
 		1721DA0220291E7100287DE4 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
-		1722576921D4944A00A7C84B /* SwiftTask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftTask.framework; path = Carthage/Build/iOS/SwiftTask.framework; sourceTree = "<group>"; };
-		1722576A21D4944A00A7C84B /* Tangram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tangram.framework; path = Carthage/Build/iOS/Tangram.framework; sourceTree = "<group>"; };
-		1722576B21D4944A00A7C84B /* Tarmac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tarmac.framework; path = Carthage/Build/iOS/Tarmac.framework; sourceTree = "<group>"; };
-		1722576C21D4944A00A7C84B /* Lilt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Lilt.framework; path = Carthage/Build/iOS/Lilt.framework; sourceTree = "<group>"; };
-		1722576D21D4944A00A7C84B /* Province.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Province.framework; path = Carthage/Build/iOS/Province.framework; sourceTree = "<group>"; };
-		1722576E21D4944A00A7C84B /* Cipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cipher.framework; path = Carthage/Build/iOS/Cipher.framework; sourceTree = "<group>"; };
 		173A95011F3E1780009A7BF3 /* ButtonState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonState.swift; sourceTree = "<group>"; };
 		1757E5D21F3B99CB00966862 /* Delay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		175D28631FA17D5300187DD0 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		17673D2F1F292B2700AC55D9 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
 		1770A0931FA83D0500FCC1DE /* IconLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconLabel.swift; sourceTree = "<group>"; };
+		17885C1A1EDE19C100FBD69E /* Tangram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tangram.framework; path = Carthage/Build/iOS/Tangram.framework; sourceTree = "<group>"; };
 		1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTargetModifying.swift; sourceTree = "<group>"; };
 		1797E0021EF9DCC200B53FA0 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1797E0041EF9DE2D00B53FA0 /* ButtonContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContent.swift; sourceTree = "<group>"; };
@@ -88,7 +54,7 @@
 		17C084041ED333AE0069A633 /* Trestle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Trestle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17C084071ED333AE0069A633 /* Trestle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Trestle.h; sourceTree = "<group>"; };
 		17C084081ED333AE0069A633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55AA43C921B6F83800850346 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		17DA504D1F43B7FD008427B5 /* Province.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Province.framework; path = Carthage/Build/iOS/Province.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,27 +62,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1722576F21D4944A00A7C84B /* SwiftTask.framework in Frameworks */,
-				1722577021D4944B00A7C84B /* Tangram.framework in Frameworks */,
-				1722577121D4944B00A7C84B /* Tarmac.framework in Frameworks */,
-				1722577221D4944B00A7C84B /* Lilt.framework in Frameworks */,
-				1722577321D4944B00A7C84B /* Province.framework in Frameworks */,
-				1722577421D4944B00A7C84B /* Cipher.framework in Frameworks */,
+				17DA504E1F43B7FD008427B5 /* Province.framework in Frameworks */,
+				1797E0061EF9DEC700B53FA0 /* Tangram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1722576821D4944A00A7C84B /* Frameworks */ = {
+		17885C1E1EDE19C400FBD69E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1722576E21D4944A00A7C84B /* Cipher.framework */,
-				1722576C21D4944A00A7C84B /* Lilt.framework */,
-				1722576D21D4944A00A7C84B /* Province.framework */,
-				1722576921D4944A00A7C84B /* SwiftTask.framework */,
-				1722576A21D4944A00A7C84B /* Tangram.framework */,
-				1722576B21D4944A00A7C84B /* Tarmac.framework */,
+				17DA504D1F43B7FD008427B5 /* Province.framework */,
+				17885C1A1EDE19C100FBD69E /* Tangram.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,8 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				17C084061ED333AE0069A633 /* Trestle */,
+				17885C1E1EDE19C400FBD69E /* Frameworks */,
 				17C084051ED333AE0069A633 /* Products */,
-				1722576821D4944A00A7C84B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +113,6 @@
 				1721DA0220291E7100287DE4 /* PageControl.swift */,
 				17AD80EB209A7F5800B81D12 /* Style.swift */,
 				175D28631FA17D5300187DD0 /* TabBar.swift */,
-				55AA43C921B6F83800850346 /* TextField.swift */,
 				179A298E20A36B120047513F /* TextView.swift */,
 				1797E0001EF9DC5300B53FA0 /* TouchTargetModifying.swift */,
 				17C084081ED333AE0069A633 /* Info.plist */,
@@ -192,7 +149,6 @@
 				17C084001ED333AE0069A633 /* Frameworks */,
 				17C084011ED333AE0069A633 /* Headers */,
 				17C084021ED333AE0069A633 /* Resources */,
-				1722575B21D4941000A7C84B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -210,12 +166,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Squareknot;
 				TargetAttributes = {
 					17C084031ED333AE0069A633 = {
 						CreatedOnToolsVersion = 8.3.2;
-						LastSwiftMigration = 1020;
+						DevelopmentTeam = 5BJ5JFAS37;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -225,6 +182,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -256,7 +214,6 @@
 				17AD80EA209A7CF400B81D12 /* Dependencies.swift in Sources */,
 				1760876E1F1D871400688CDC /* ButtonContent.swift in Sources */,
 				179A298D20A36A460047513F /* Font.swift in Sources */,
-				55AA43CA21B6F83800850346 /* TextField.swift in Sources */,
 				173A95021F3E1780009A7BF3 /* ButtonState.swift in Sources */,
 				1760876C1F1D86F200688CDC /* TouchTargetModifying.swift in Sources */,
 				1770A0941FA83D0500FCC1DE /* IconLabel.swift in Sources */,
@@ -397,14 +354,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5BJ5JFAS37;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -412,12 +366,12 @@
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
-				PRODUCT_BUNDLE_IDENTIFIER = co.cultivr.Trestle;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -427,14 +381,11 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 5BJ5JFAS37;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -442,11 +393,11 @@
 				INFOPLIST_FILE = Trestle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(CONFIGURATION_BUILD_DIR)";
-				PRODUCT_BUNDLE_IDENTIFIER = co.cultivr.Trestle;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.squareknot.Trestle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
