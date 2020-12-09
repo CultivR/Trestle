@@ -75,8 +75,9 @@ private extension PageControl {
     }
     
     var initialX: CGFloat {
-        let width = distance * CGFloat(numberOfPages - 1) + size
-        return floor((bounds.size.width - width) / 2)
+        let width = distance * CGFloat(numberOfPages) + size
+        let halfWidth = width / 2
+        return round((bounds.size.width - width - halfWidth) / 2) + .defaultSize
     }
     
     var currentX: CGFloat {
@@ -91,7 +92,7 @@ private extension PageControl {
     }
     
     func layoutPips() {
-        let y = floor((bounds.size.height - size) / 2)
+        let y: CGFloat = 0
         for (index, subview) in subviews.enumerated() {
             subview.frame.origin.y = y
             subview.frame.origin.x = initialX + distance * CGFloat(index)
